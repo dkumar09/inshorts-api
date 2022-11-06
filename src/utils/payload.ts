@@ -24,6 +24,6 @@ export const createNewsPayload = (newsItem: NewsItemRequest[]): NewsItemResponse
       createdAt: item.created_at,
     })
   }
-
+  console.log("this sia abetter shit than i can be expecting !!!!", news)
   return news
 }

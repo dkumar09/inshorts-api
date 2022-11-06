@@ -19,5 +19,6 @@ export class NewsRoute implements Routes {
     this.router.get(`${this.path}/search`, searchNewsSchema, this.newsController.searchNews)
     this.router.get(`${this.path}/topics`, this.newsController.trendingTopics)
     this.router.get(`${this.path}/topics/:topic`, paginationSchema, this.newsController.topic)
+    this.router.get(`${this.path}/rss`, paginationSchema, this.newsController.rss)
   }
 }

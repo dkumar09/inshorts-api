@@ -24,6 +24,7 @@
     "express-timeout-handler": "^2.2.2",
     "joi": "^17.6.3",
     "morgan": "^1.10.0",
+    "rss": "^1.2.2",
     "tsx": "^3.10.3",
     "winston": "^3.8.2"
   },
